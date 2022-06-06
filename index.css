@@ -1,0 +1,66 @@
+/* Fill CSS here */
+body>h1{
+    text-align: center;
+}
+body>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+form{
+    background-color: white;
+    padding: 60px 100px 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 15%;
+    height: 400px;
+}
+form input{
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 230px;
+    font-size: 17px;
+}
+form select{
+    font-size: 17px;
+}
+form input:nth-last-child(1){
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(54, 54, 195);
+    color: white;
+    width: 240px;
+    padding: 5px;
+}
+form input:nth-last-child(1):hover{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(108, 108, 191);
+    color: white;
+    padding: 5px;
+}
+form label{
+    border-radius: 1px;
+}
+
+table{
+    width: 60%;
+    height: auto;
+    column-gap: 200px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-spacing: 10px;
+}
+th{
+    background-color: rgb(83, 62, 222);
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+tr>th{
+    width: 100px;
+}
+td{
+    height: 20px;
+}
